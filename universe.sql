@@ -258,12 +258,12 @@ INSERT INTO public.asteroids VALUES (3, 'Pallas', 4600000, 401.78, 'One of the l
 -- Data for Name: galaxy; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.galaxy VALUES (1, 'Wimble', 344, 'So dank', 423.45, true, false);
-INSERT INTO public.galaxy VALUES (2, 'jimble', 344, 'So dank', 423.45, true, false);
-INSERT INTO public.galaxy VALUES (3, 'Wble', 344, 'So dank', 423.45, true, false);
-INSERT INTO public.galaxy VALUES (4, 'Wie', 344, 'So dank', 423.45, true, false);
-INSERT INTO public.galaxy VALUES (5, 'ble', 344, 'So dank', 423.45, true, false);
-INSERT INTO public.galaxy VALUES (6, 'Wime', 344, 'So dank', 423.45, true, false);
+INSERT INTO public.galaxy VALUES (1, 'Andromeda Galaxy', 344, 'Closest major galaxy to the Milky Way', 423.45, true, false);
+INSERT INTO public.galaxy VALUES (2, 'Milky Way Galaxy', 344, 'Our home galaxy', 423.45, true, false);
+INSERT INTO public.galaxy VALUES (3, 'Triangulum Galaxy', 344, 'Third closest galaxy to the Milky Way', 423.45, true, false);
+INSERT INTO public.galaxy VALUES (4, 'Sombrero Galaxy', 344, 'Known for its distinctive dust lane', 423.45, true, false);
+INSERT INTO public.galaxy VALUES (5, 'Pinwheel Galaxy', 344, 'Face-on spiral galaxy', 423.45, true, false);
+INSERT INTO public.galaxy VALUES (6, 'Whirlpool Galaxy', 344, 'Known for its prominent spiral arms', 423.45, true, false);
 
 
 --
@@ -296,8 +296,8 @@ INSERT INTO public.moon VALUES (20, 'Arcanus', 7890, 'A moon of mysterious, arca
 -- Data for Name: planet; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.planet VALUES (1, 'cassandra', 32, 'she nasty', 32.22, false, true, 2);
-INSERT INTO public.planet VALUES (2, 'caliban', 32, 'she nasty', 32.22, false, true, 2);
+INSERT INTO public.planet VALUES (1, 'cassandra', 32, 'A blue planet', 32.22, false, true, 2);
+INSERT INTO public.planet VALUES (2, 'caliban', 32, 'A barren rocky planet', 32.22, false, true, 2);
 INSERT INTO public.planet VALUES (3, 'Zephyr', 21, 'A gentle, wind-swept planet', 41.70, true, false, 1);
 INSERT INTO public.planet VALUES (4, 'Ignitus', 45, 'A volcanic, fiery world', 29.30, false, true, 3);
 INSERT INTO public.planet VALUES (5, 'Aquaria', 28, 'An ocean-covered planet', 37.80, true, false, 1);
@@ -314,12 +314,12 @@ INSERT INTO public.planet VALUES (12, 'Serenity', 26, 'A peaceful, tranquil plan
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.star VALUES (1, 'dogfish', 33302, 'ohyee', 34.34, true, false, 1);
-INSERT INTO public.star VALUES (2, 'wogfish', 33302, 'ohyee', 34.34, true, false, 2);
-INSERT INTO public.star VALUES (3, 'domefish', 33302, 'ohyee', 34.34, true, false, 2);
-INSERT INTO public.star VALUES (4, 'purpdrank', 33302, 'ohyee', 34.34, true, false, 3);
-INSERT INTO public.star VALUES (5, 'greend', 33302, 'ohyee', 34.34, true, false, 3);
-INSERT INTO public.star VALUES (6, 'wolandino', 33302, 'ohyee', 34.34, true, false, 4);
+INSERT INTO public.star VALUES (1, 'Sirius', 8.58, 'Brightest star in night sky', 1.7, true, false, 1);
+INSERT INTO public.star VALUES (2, 'Canopus', -0.62, 'Second brightest star', 319.4, true, false, 2);
+INSERT INTO public.star VALUES (3, 'Procyon', 0.34, 'Eighth brightest star', 11.4, true, false, 2);
+INSERT INTO public.star VALUES (4, 'Achernar', 0.45, 'Southern Hemisphere star', 144, true, false, 3);
+INSERT INTO public.star VALUES (5, 'Betelgeuse', -0.42, 'Red supergiant star', 427, true, false, 3);
+INSERT INTO public.star VALUES (6, 'Rigel', -6.67, 'Blue supergiant star', 784, true, false, 4);
 
 
 --
